@@ -6,4 +6,5 @@ use Livewire\Volt\Volt;
 Route::get('/', function () {
     return view('welcome');
 });
+
 Volt::route('/calcs/{number1}/{op}/{number2}', 'calc');
