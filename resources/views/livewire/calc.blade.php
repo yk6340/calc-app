@@ -7,8 +7,7 @@ state(['number1', 'op', 'number2']);
 ?>
 
 <div>
-    <h1 class="text-4xl font-bold">計算結果</h1>
-
+    <h1 class="text-4xl font-bold mb-4">計算結果</h1>
 
     @php
         $n1 = (int)$number1;
