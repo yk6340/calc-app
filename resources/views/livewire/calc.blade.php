@@ -10,3 +10,4 @@ state(['number1', 'op', 'number2']);
     <h1>テスト表示</h1>
     <p>{{ $number1 }} {{ $op }} {{ $number2 }}</p>
 </div>
+
