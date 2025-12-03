@@ -7,7 +7,8 @@ state(['number1', 'op', 'number2']);
 ?>
 
 <div>
-    <h1>計算結果</h1>
+    <h1 class="text-4xl font-bold">計算結果</h1>
+
 
     @php
         $n1 = (int)$number1;
@@ -37,7 +38,7 @@ state(['number1', 'op', 'number2']);
         }
     @endphp
 
-    <p>{{ $n1 }} {{ $symbol }} {{ $n2 }} = {{ $result }}</p>
+    <p class="text-2xl font-semibold">{{ $n1 }} {{ $symbol }} {{ $n2 }} = {{ $result }}</p>
 </div>
 
 
